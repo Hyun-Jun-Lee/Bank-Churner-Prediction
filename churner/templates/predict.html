@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title  %}
+Predict
+{% endblock  %}
+
+{% block lead  %}
+'이름' 을 입력해주세요<br><br>
+{% endblock  %}
+
+{% block main_body  %}
+<form method="POST" action="/predict">
+  <input name="username" style="margin-bottom:10px" class="form-control" type="text" />
+  <input type="submit" class="btn btn-primary" value="predict" />
+</form>
+<br>
+<br>
+
+{% if prediction %}
+<p>{{prediction.user}} is more likely to leave or remain?</p>
+<p>0 : Remain &nbsp&nbsp&nbsp 1 : Leave </P>
+<p>{{prediction.result}}</p>
+{% endif %}
+{% endblock  %}

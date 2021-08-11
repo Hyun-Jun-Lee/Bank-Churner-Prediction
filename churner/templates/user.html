@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+
+{% block alert %}
+{% if alert_msg %}
+<div class="alert alert-{{ alert_msg.type }}" role="alert">
+  {{ alert_msg.msg }}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block title %}
+Create User Infomation
+{% endblock %}
+
+{% block lead %}
+예측을 위한 고객 정보 생성
+{% endblock %}
+
+{% block main_body %}
+<form method="POST" action="/api/user">
+  <label for="username">이름</label>
+  <input name="username" style="margin-bottom:10px" class="form-control" type="text" placeholder="Enter fullname">
+  
+  <label for="age">나이(만)</label>
+  <input name="age" style="margin-bottom:10px" class="form-control" type="number" placeholder="Enter age">
+
+  <label for="contact">1년간 방문 횟수</label>
+  <select id="contact" name="contact">
+    <option value='0'>0회</option>
+    <option value='1'>1회</option>
+    <option value='2'>2회</option>
+    <option value='3'>3회</option>
+    <option value='4'>4회</option>
+    <option value='5'>5회 이상</option>
+
+  </select>
+
+  <label for="total_rel">보유한 상품 수</label>
+  <select id="total_rel" name="total_rel">
+    <option value='1'>1개</option>
+    <option value='2'>2개</option>
+    <option value='3'>3개</option>
+    <option value='4'>4개</option>
+    <option value='5'>5개</option>
+    <option value='6'>6개 이상</option>
+
+  </select>
+  <br>
+  <br>
+  
+  <label for="gender">성별</label>
+  <select id="gender" name="gender">
+    <option value='0'>Male</option>
+    <option value='1'>Female</option>
+  </select>
+  
+  <label for="dependent">부양가족수</label>
+  <select id="dependent" name="dependent">
+    <option value='0'>0</option>
+    <option value='1'>1</option>
+    <option value='2'>2</option>
+    <option value='3'>3</option>
+    <option value='4'>4</option>
+    <option value='5'>5(이상)</option>
+  </select>
+  <br>
+  <br>
+  
+  <label for="Edu_Level">학력(졸업)</label>
+  <select id="Edu_Level" name="Edu_Level">
+    <option value='0'>College</option>
+    <option value='1'>Doctorate</option>
+    <option value='2'>Graduate</option>
+    <option value='3'>High School</option>
+    <option value='4'>Post-Graduate</option>
+    <option value='5'>Uneducated</option>
+
+  </select>
+
+  <label for="income">연봉</label> 
+  <select id="income" name="income">
+    <option value='0'>Less than $40K</option>
+    <option value='1'>$40K - $60K</option>
+    <option value='2'>$60K - $80K</option>
+    <option value='3'>$80K - $120K</option>
+    <option value='4'>$120K +</option>
+  </select>
+  <input type="submit" class="btn btn-primary" value="Input" />
+</form>
+
+{% if user_list %}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">User_id</th>
+      <th scope="col">Username</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for user in user_list %}
+    <tr>
+      <th scope="row">{{ user.user_id }}</th>
+      <td>{{ user.username }}</td>
+      <td>
+        <a class="btn btn-secondary", href='/api/user/{{ user.user_id }}'>
+          Delete
+        </a>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% endblock %}

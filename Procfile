@@ -1,0 +1,1 @@
+web: gunicorn --workers=2 'credit_card:create_app()'
