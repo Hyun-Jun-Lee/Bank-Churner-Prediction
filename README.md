@@ -1,6 +1,6 @@
-# Credit-risk-prediction
+# Bank-Churner-Prediction
 
-## 신용 위험 예측 모델
+## 고객 이탈 방지를 위한 모델링 및 웹 서비스 구현
 
 > Datast
 
