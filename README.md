@@ -38,6 +38,14 @@
 - Visualization : PDP, Shap
 - Web : Flask, SQLAlchemy, HTML, Migrate, gunicorn, heroku
 
-> Presentation
+> 프로젝트 시작 계기
 
-- 
+- 2019년 말부터 오픈뱅킹 서비스의 시작으로, 현재는 은행, 증권사 뿐만아니라 다양한 핀테크 업체들이 금융 서비스를 제공하고있습니다. 
+- 그에 따라 고객의 선택지가 다양해졌고 그에 따라 이탈률이 증가하고 있기 때문에, 고객 이탈 방지 전략에 도움이 될만한 결과를 찾기 위해 해당 프로젝트를 진행했습니다.
+
+
+> 모델링 성능
+
+![image](https://user-images.githubusercontent.com/76996686/133222780-9c0e9be0-967d-49b9-9360-e57a5338655f.png)
+
+
