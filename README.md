@@ -17,9 +17,13 @@
 - 2019년 말부터 오픈뱅킹 서비스의 시작으로, 현재는 은행, 증권사 뿐만아니라 다양한 핀테크 업체들이 금융 서비스를 제공하고있습니다. 
 - 그에 따라 고객의 선택지가 다양해졌고 그에 따라 이탈률이 증가하고 있기 때문에, 고객 이탈 방지 전략에 도움이 될만한 결과를 찾기 위해 해당 프로젝트를 진행했습니다.
 
-### Datast
+***
+
+### Dataset
 
 - Kaggle(https://www.kaggle.com/sakshigoyal7/credit-card-customers)
+
+***
 
 ### 변수 설명
 
@@ -46,6 +50,8 @@
 - Avg_Utilization_Ratio : 평균 카드 사용률
 - cb_person_gist_length : 첫 대출 받은 후 지난 기간(연 단위)
 
+***
+
 ### Skils
 
 - EDA & Preprocessing : pandas, numpy, matploylib, plotly, seaborn, profiling
@@ -53,6 +59,7 @@
 - Visualization : PDP, Shap
 - Web : Flask, SQLAlchemy, HTML, Migrate, gunicorn, heroku
 
+***
 
 ### 모델 성능
 
@@ -68,6 +75,7 @@
   - 1에 가까울 수록 좋은 수치
   - 곡선 밑의 면적의 합
 
+***
 
 ### 결과 및 시각화
 
@@ -83,4 +91,4 @@
 
 - Dependent_count 특성은 부양 가족이 많을 수록 이탈률이 증가하다 3명이상 부터는 큰 변화가 없다
 
-
+***
