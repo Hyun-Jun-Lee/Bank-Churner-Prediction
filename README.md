@@ -10,7 +10,10 @@
 4. [Skils](#Skils)
 5. [모델 성능](#모델-성능)
 6. [결과 및 시각화](#결과-및-시각화)
+7. [Web application](#Web-application)
+8. [향후 개선 과제](#향후-개선-과제)
 
+***
 
 ### 프로젝트 선정 이유
 
@@ -18,12 +21,14 @@
 - 그에 따라 고객의 선택지가 다양해졌고 그에 따라 이탈률이 증가하고 있기 때문에, 고객 이탈 방지 전략에 도움이 될만한 결과를 찾기 위해 해당 프로젝트를 진행했습니다.
 
 ***
+<br>
 
 ### Dataset
 
 - Kaggle(https://www.kaggle.com/sakshigoyal7/credit-card-customers)
 
 ***
+<br>
 
 ### 변수 설명
 
@@ -51,6 +56,7 @@
 - cb_person_gist_length : 첫 대출 받은 후 지난 기간(연 단위)
 
 ***
+<br>
 
 ### Skils
 
@@ -60,6 +66,7 @@
 - Web : Flask, SQLAlchemy, HTML, Migrate, gunicorn, heroku
 
 ***
+<br>
 
 ### 모델 성능
 
@@ -76,6 +83,7 @@
   - 곡선 밑의 면적의 합
 
 ***
+<br>
 
 ### 결과 및 시각화
 
@@ -92,3 +100,21 @@
 - Dependent_count 특성은 부양 가족이 많을 수록 이탈률이 증가하다 3명이상 부터는 큰 변화가 없다
 
 ***
+<br>
+
+### Web application
+
+![image](https://user-images.githubusercontent.com/76996686/133262174-e96a8407-aba0-4aa0-b83a-65923d2b4521.png)
+
+![image](https://user-images.githubusercontent.com/76996686/133262363-7cef38c0-f55f-4d2c-b90d-addba7c7a0e8.png)
+
+
+
+***
+<br>
+
+### 향후 개선 과제
+
+  1. 디자인 개선
+  2. 입력 되지 않는 정보 처리(해당 나이 대 평균으로)
+  3. AWS or Docker 이용한 
