@@ -1,17 +1,21 @@
 # Bank-Churner-Prediction
+> version 1.0 : https://backchurn3.herokuapp.com/
 
 ## 고객 이탈 방지를 위한 모델링 및 웹 서비스 구현
 
 ## 목차
 
-1. [프로젝트 선정 이유](#프로젝트-선정-이유)
-2. [Dataset](#Dataset)
-3. [변수 설명](#변수-설명)
-4. [Skils](#Skils)
-5. [모델 성능](#모델-성능)
-6. [결과 및 시각화](#결과-및-시각화)
-7. [Web application](#Web-application)
-8. [향후 개선 과제](#향후-개선-과제)
+- [Bank-Churner-Prediction](#bank-churner-prediction)
+  - [고객 이탈 방지를 위한 모델링 및 웹 서비스 구현](#고객-이탈-방지를-위한-모델링-및-웹-서비스-구현)
+  - [목차](#목차)
+    - [프로젝트 선정 이유](#프로젝트-선정-이유)
+    - [Dataset](#dataset)
+    - [변수 설명](#변수-설명)
+    - [Skils](#skils)
+    - [모델 성능](#모델-성능)
+    - [결과 및 시각화](#결과-및-시각화)
+    - [Web application](#web-application)
+    - [향후 개선 과제](#향후-개선-과제)
 
 ***
 
@@ -118,7 +122,7 @@
   - [ ] 디자인 개선
   - [ ] vaild set 나눠서 다시 모델링
   - [ ] 입력 되지 않는 정보 처리(해당 나이 대 평균으로)
-  - [ ] AWS or Docker 를 통한 배포
+  - [ ] AWS or Docker 를 통한 배포(현재 heroku)
 
 
 [위로가기](#목차)
