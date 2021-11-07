@@ -73,6 +73,14 @@
 
 ### 모델 검증, 결과
 
+- StratifiedKFold CV
+
+![image](https://user-images.githubusercontent.com/76996686/140649013-127fe588-2331-43db-8236-b9ffbb430332.png)
+
+<br>
+
+- 최종 성능
+
 ![image](https://user-images.githubusercontent.com/76996686/133222780-9c0e9be0-967d-49b9-9360-e57a5338655f.png)
 
 <br>
