@@ -12,10 +12,9 @@
     - [Dataset](#dataset)
     - [변수 설명](#변수-설명)
     - [Skils](#skils)
-    - [모델 성능](#모델-성능)
-    - [결과 및 시각화](#결과-및-시각화)
+    - [모델 검증, 결과](#모델-검증-결과)
+    - [시각화](#시각화)
     - [Web application](#web-application)
-    - [향후 개선 과제](#향후-개선-과제)
 
 ***
 
@@ -72,7 +71,7 @@
 ***
 <br>
 
-### 모델 성능
+### 모델 검증, 결과
 
 ![image](https://user-images.githubusercontent.com/76996686/133222780-9c0e9be0-967d-49b9-9360-e57a5338655f.png)
 
@@ -89,7 +88,7 @@
 ***
 <br>
 
-### 결과 및 시각화
+### 시각화
 
 ![image](https://user-images.githubusercontent.com/76996686/133258625-f3fd50f4-8ffd-42f3-beca-7d80a2f51e0f.png)
 
@@ -116,13 +115,6 @@
 
 ***
 <br>
-
-### 향후 개선 과제
-
-  - [ ] 디자인 개선
-  - [ ] vaild set 나눠서 다시 모델링
-  - [ ] 입력 되지 않는 정보 처리(해당 나이 대 평균으로)
-  - [ ] AWS or Docker 를 통한 배포(현재 heroku)
 
 
 [위로가기](#목차)
