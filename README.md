@@ -123,7 +123,7 @@
 
 <br>
 
-<a href="https://djangobankchurn.herokuapp.com/">Go to Web</a>
+<a href="https://djangobankchurn.herokuapp.com/">Go to Web</a><br>
 <a href="https://djangobankchurn.herokuapp.com/">Code repo</a>
 
 
