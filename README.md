@@ -1,5 +1,5 @@
 # Bank-Churner-Prediction
-> version 1.0 : https://backchurn3.herokuapp.com/
+> version 2.0(Django) : https://djangobankchurn.herokuapp.com/
 
 ## 고객 이탈 방지를 위한 모델링 및 웹 서비스 구현
 
@@ -115,10 +115,16 @@
 
 ### Web application
 
-![image](https://user-images.githubusercontent.com/76996686/133262174-e96a8407-aba0-4aa0-b83a-65923d2b4521.png)
+![image](https://user-images.githubusercontent.com/76996686/141352286-7aa74a7e-c60e-4fe0-8ab1-97da468ed0ec.png)
 
-![image](https://user-images.githubusercontent.com/76996686/133262363-7cef38c0-f55f-4d2c-b90d-addba7c7a0e8.png)
+<br>
 
+![image](https://user-images.githubusercontent.com/76996686/141352345-59d1844c-516a-4166-9b37-a5c570fdd84c.png)
+
+<br>
+
+<a href="https://djangobankchurn.herokuapp.com/">Go to Web</a>
+<a href="https://djangobankchurn.herokuapp.com/">Code repo</a>
 
 
 ***
