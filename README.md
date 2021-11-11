@@ -64,9 +64,9 @@
 ### Skils
 
 - EDA & Preprocessing : pandas, numpy, matploylib, plotly, seaborn, profiling
-- Modeling : lightgbm, adaboost,random forest, SMOTE, sklearn, CV
-- Visualization : PDP, Shap
-- Web : Flask, SQLAlchemy, HTML, Migrate, gunicorn, heroku
+- Modeling : lightgbm, SVM, SMOTE, pipelin, RandomsearchCV
+- Visualization : PDP
+- Web : Flask, Django, Heroku
 
 ***
 <br>
